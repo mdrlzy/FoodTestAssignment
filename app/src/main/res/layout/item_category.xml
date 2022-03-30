@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false">
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red20"
+        android:textColor="@color/red"
+        tools:text="hi" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clipToPadding="false"
+        android:elevation="8dp"
+        android:textColor="@color/gray4"
+        android:visibility="gone"
+        tools:text="hi" />
+
+</FrameLayout>
